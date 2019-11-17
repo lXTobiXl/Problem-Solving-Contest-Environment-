@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dsproject.SLogin">
+  <children>
+    <Label layoutX="39.0" layoutY="32.0" text="Welcome to the contest" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="20.0" />
+      </font>
+    </Label>
+    <TextField id="TUsername" fx:id="tUsername" layoutX="48.0" layoutY="130.0" prefHeight="29.0" prefWidth="205.0" />
+    <Button id="b" fx:id="bLogin" layoutX="48.0" layoutY="202.0" mnemonicParsing="false" onAction="#clickLogin" prefHeight="29.0" prefWidth="84.0" text="Log in">
+      <font>
+        <Font name="System Bold" size="12.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button id="b" fx:id="bExit" font="$x1" layoutX="169.0" layoutY="202.0" mnemonicParsing="false" onAction="#clickExit" prefHeight="29.0" prefWidth="84.0" text="Exit" />
+    <Label layoutX="50.0" layoutY="93.0" prefHeight="24.999908447265625" text="please enter your username:" textFill="WHITE">
+      <font>
+        <Font size="16.0" />
+      </font>
+    </Label>
+  </children>
+  <stylesheets>
+    <URL value="@style.css" />
+  </stylesheets>
+</AnchorPane>
