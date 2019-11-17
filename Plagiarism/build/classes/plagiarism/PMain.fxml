@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Content" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="377.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Plagiarism.PMain">
+  <children>
+    <Label layoutX="54.0" layoutY="92.0" text="Select Folder Path:" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="16.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Button id="b" fx:id="bSubmit" layoutX="79.0" layoutY="193.0" mnemonicParsing="false" onAction="#clickStart" prefHeight="31.0" prefWidth="90.0" style="" text="Start">
+      <font>
+        <Font name="System Bold" size="12.0" fx:id="x2" />
+      </font>
+    </Button>
+    <Label layoutX="113.0" layoutY="37.0" text="Detect Cheating" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="20.0" />
+      </font>
+    </Label>
+    <Button id="b" fx:id="bBrowse" font="$x2" layoutX="234.0" layoutY="88.0" mnemonicParsing="false" onAction="#clickBrowse" prefHeight="31.0" prefWidth="90.0" style="" text="Browse" />
+    <Label fx:id="lPath" layoutX="54.0" layoutY="139.0" prefWidth="286.0" text="C:/...../...." textFill="WHITE">
+      <font>
+        <Font size="14.0" />
+      </font>
+    </Label>
+    <Button id="b" fx:id="bExit" font="$x2" layoutX="210.0" layoutY="193.0" mnemonicParsing="false" onAction="#clickExit" prefHeight="31.0" prefWidth="90.0" style="" text="Exit" />
+  </children>
+  <stylesheets>
+    <URL value="@style.css" />
+  </stylesheets>
+</AnchorPane>
