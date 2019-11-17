@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="dsproject.AddConfirmation">
+  <children>
+    <Label layoutX="88.0" layoutY="27.0" text="Confirmation" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="20.0" />
+      </font>
+    </Label>
+    <Label layoutX="23.0" layoutY="68.0" text="You added a problem successfully" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="16.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label fx:id="bText" alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="32.0" layoutY="97.0" prefWidth="237.0" text="There is " textAlignment="CENTER" textFill="WHITE" />
+    <Button id="b" fx:id="bOk" layoutX="111.0" layoutY="151.0" mnemonicParsing="false" onAction="#clickOk" prefHeight="27.0" prefWidth="78.0" style="" text="Ok">
+      <font>
+        <Font name="System Bold" size="12.0" fx:id="x2" />
+      </font>
+      <stylesheets>
+        <URL value="@../../../PC2ClientV1/src/dsproject/style.css" />
+      </stylesheets>
+    </Button>
+  </children>
+  <stylesheets>
+    <URL value="@style.css" />
+  </stylesheets>
+</AnchorPane>

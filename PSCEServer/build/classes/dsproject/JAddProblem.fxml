@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="394.0000084472631" prefWidth="441.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="dsproject.AddProblem">
+  <children>
+    <Label layoutX="32.0" layoutY="93.0" text="Time Limit:" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="16.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="32.0" layoutY="146.0" text="Problem:" textFill="WHITE" />
+    <TextArea id="tMessage" fx:id="tProblem" layoutX="117.0" layoutY="146.0" prefHeight="146.0" prefWidth="293.0" wrapText="true" />
+    <Button id="b" layoutX="69.0" layoutY="326.0" mnemonicParsing="false" onAction="#clickAdd" prefHeight="31.0" prefWidth="96.0" style="" text="Add">
+      <font>
+        <Font name="System Bold" size="12.0" fx:id="x2" />
+      </font>
+    </Button>
+    <Label layoutX="161.0" layoutY="33.0" text="Add Problem" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="20.0" />
+      </font>
+    </Label>
+    <Button id="b" font="$x2" layoutX="273.0" layoutY="330.0" mnemonicParsing="false" onAction="#clickCancel" prefHeight="31.0" prefWidth="96.0" style="" text="Cancel" />
+    <TextField fx:id="tTime" layoutX="127.0" layoutY="88.0" prefHeight="32.0" prefWidth="146.0" />
+  </children>
+  <stylesheets>
+    <URL value="@style.css" />
+  </stylesheets>
+</AnchorPane>

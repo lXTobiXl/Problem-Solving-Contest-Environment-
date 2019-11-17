@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="363.0000084472631" prefWidth="441.0" style="" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dsproject.JMain">
+  <children>
+    <Label layoutX="27.0" layoutY="92.0" text="Problem:" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="16.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="27.0" layoutY="151.0" text="Enter the broadcast message here:" textFill="WHITE" />
+    <TextArea fx:id="tMessage" layoutX="27.0" layoutY="187.0" prefHeight="144.0" prefWidth="388.0" wrapText="true" />
+    <Button id="b" layoutX="334.0" layoutY="88.0" mnemonicParsing="false" onAction="#clickSubmit" prefHeight="31.0" prefWidth="69.0" style="" text="Submit">
+      <font>
+        <Font name="System Bold" size="12.0" />
+      </font>
+    </Button>
+    <Label layoutX="137.0" layoutY="14.0" text="Send Clarification" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="20.0" />
+      </font>
+    </Label>
+    <ComboBox id="b" fx:id="tProblem" layoutX="108.0" layoutY="88.0" onAction="#tProblem" prefHeight="31.0" prefWidth="194.0" style="&#10;">
+    </ComboBox>
+      <Label layoutX="299.0" layoutY="48.0" text="End Time" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" fx:id="x11" />
+         </font>
+      </Label>
+      <Label layoutX="401.0" layoutY="48.0" text=":" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" fx:id="x11" />
+         </font>
+      </Label>
+      <Label fx:id="hourlbl" layoutX="381.0" layoutY="48.0" text="22" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" fx:id="x11" />
+         </font>
+      </Label>
+      <Label fx:id="minslbl" layoutX="407.0" layoutY="48.0" text="22" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" fx:id="x11" />
+         </font>
+      </Label>
+  </children>
+  <stylesheets>
+    <URL value="@style.css" />
+  </stylesheets>
+</AnchorPane>

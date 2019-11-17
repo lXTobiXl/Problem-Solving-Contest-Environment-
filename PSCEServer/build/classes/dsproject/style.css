@@ -1,0 +1,16 @@
+.combo-box-base > .arrow-button{ 
+-fx-background-color: #f4f5f5; 
+}
+
+#Content,
+#AnchorPane{
+-fx-background-color: linear-gradient(to right top, #2998ff, #5643fa, #5F08E0);
+}
+
+#b{
+-fx-background-color:#f5f5f5;
+}
+
+#b:hover{
+-fx-background-color:#CACFD2;
+}
